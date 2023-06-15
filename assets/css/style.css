@@ -3502,6 +3502,8 @@ body.mmm-open .mmm {
     justify-items: center;
     align-items: center;
     transform: scale(0.8);
+    
+    margin-top: -100px;
 }
 
 @media (max-width: 1200px) {
