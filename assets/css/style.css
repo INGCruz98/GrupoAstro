@@ -3500,12 +3500,12 @@ body.mmm-open .mmm {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     
-    grid-gap: 10px;
+    grid-gap: 20px;
     justify-items: center;
     align-items: center;
     transform: scale(0.8);
     
-    margin-top: -100px;
+    margin-top: -200px;
 }
 
 @media (max-width: 1200px) {
