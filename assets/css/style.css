@@ -1078,10 +1078,14 @@ blockquote footer {
 
 .btn.btn-with-icon .btn-icon-right {
     margin-left: 0.5rem;
+    color: white;
+   
+    
 }
 
 .btn.btn-with-icon .btn-icon-left {
     margin-right: 0.5rem;
+    color: white;
 }
 
 .btn:focus {
@@ -3113,7 +3117,6 @@ body.mmm-open .mmm {
 .section-bgc {
     background-color: var(--background-secondary-color);
 }
-
 .section-header-margin-none .section-heading {
     margin: 0;
 }
@@ -3123,7 +3126,9 @@ body.mmm-open .mmm {
     max-width: 850px;
 }
 
-.section-heading h1, .section-heading h2, .section-heading h3 {
+.section-heading h1,
+.section-heading h2,
+.section-heading h3 {
     position: relative;
     font-size: 2.5rem;
     margin: 0;
@@ -3131,7 +3136,15 @@ body.mmm-open .mmm {
 
 .section-heading.shm-none {
     margin-bottom: 0;
+    backdrop-filter: blur(5px); /* Agrega el desenfoque de fondo */
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px; /* Redondea los bordes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Agrega un efecto de sombra */
+    background-color: rgba(39, 39, 39, 0.5); /* Color oscuro de fondo */
+    color: white;
 }
+
 
 .section-heading .btn-group {
     margin-top: 2rem;
@@ -3166,7 +3179,7 @@ body.mmm-open .mmm {
 .section-desc {
     margin: 1.25rem 0;
     max-width: 30rem;
-    color: black;
+    color: white;
 }
 
 .section-footer {
